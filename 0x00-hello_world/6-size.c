@@ -10,7 +10,7 @@
 {
 	print("Size of a char: 1 byte(s)"
 
-			"Size of an int: 4 byte(s")
+			"Size of an int: 4 byte(s)"
 
 			"Size of a long int: 4 byte(s)"
 
