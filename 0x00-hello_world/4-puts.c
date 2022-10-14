@@ -11,10 +11,10 @@
 int main(void)
 
 {
-	char Words[] = "\"Progrannin is like building multilingual puzzle\n);
+	char Words[] = "\"Progrannin is like building multilingual puzzle\n");
 
 	puts(Words);
 
-	return (0);
+	return 0;
 
 }
