@@ -15,6 +15,6 @@ int main(void)
 
 	puts(Words);
 
-	return 0;
+	return (0);
 
 }
