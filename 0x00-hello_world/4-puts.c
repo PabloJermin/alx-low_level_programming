@@ -12,9 +12,7 @@ int main(void)
 
 {
 
-	char comments[] = "\"Programming is like building a multilingual puzzle\n";
-
-	puts(comments);
+	puts("\"Programming is like building a multilingual puzzle\n);
 	return (0);
 
 }
