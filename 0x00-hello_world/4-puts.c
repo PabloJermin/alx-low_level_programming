@@ -11,8 +11,10 @@
 int main(void)
 
 {
+	char Words[] = "\"Progrannin is like building multilingual puzzle\n);
 
-	puts("\"Programming is like building a multilingual puzzle\n);
+	puts(Words);
+
 	return (0);
 
 }
