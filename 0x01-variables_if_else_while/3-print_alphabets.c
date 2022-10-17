@@ -7,9 +7,9 @@ int main(void)
 	{
 		char lcase = 'a';
 		char uc = 'A';
-		
+
 		while (lcase <= 'z')
-		{	
+		{
 			putchar(lcase);
 			lcase++;
 		}
