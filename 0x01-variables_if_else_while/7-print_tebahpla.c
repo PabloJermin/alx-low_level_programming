@@ -9,7 +9,7 @@ int main (void)
 	
 	while (alphi >= 'a')
 	{
-		putchar(alphi)
+		putchar(alphi);
 			alphi--;
 	}
 	putchar('\n');
