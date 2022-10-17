@@ -6,7 +6,7 @@
 int main(void)
 {
 	char alphi = 'z';
-	
+
 	while (alphi >= 'a')
 	{
 		putchar(alphi);
