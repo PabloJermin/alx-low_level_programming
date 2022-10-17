@@ -2,13 +2,14 @@
 #include <stdio.h>
 #include <time.h>
 /**
- * main-this obtains the last number of the 
+ * main-this obtains the last number of the
  * and compares it to 5
  * Return: Always 0 (Success)
  */
 int main(void)
 {
 	int n;
+	
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	printf("Last digit of %d is %d ", n, n % 10);
