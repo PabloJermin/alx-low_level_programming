@@ -1,15 +1,17 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-/** More headers goes here
+/**
+ * More headers goes here
  * main- This determines weather the number is negetive or positive
  * betty sty doc for main fuction goes here
  * Return: Always 0 (success)
-*/
+ */
 
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
