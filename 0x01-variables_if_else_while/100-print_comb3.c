@@ -7,6 +7,7 @@ int main(void)
 {
 	int single;
 	int dobs;
+
 	for (dobs = '0'; dobs <= '9'; dobs++)
 		for (single = (dobs + 1); single <= '9'; single++)
 		{
