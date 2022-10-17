@@ -7,12 +7,13 @@ int main(void)
 	{
 		char lcase = 'a';
 		char uc = 'A';
+		
 		while (lcase <= 'z')
 		{	
 			putchar(lcase);
 			lcase++;
 		}
-		while (uc <='Z')
+		while (uc <= 'Z')
 		{
 			putchar(uc);
 			uc++;
