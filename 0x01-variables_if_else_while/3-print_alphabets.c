@@ -7,11 +7,14 @@ int main(void)
 	{
 		char lcase = 'a';
 		char uc = 'A';
-		while (lcase <= 'z'; && uc <= 'Z')
+		while (lcase <= 'z')
 		{	
 			putchar(lcase);
-			putchar(uc);
 			lcase++;
+		}
+		while (uc <='Z')
+		{
+			putchar(uc);
 			uc++;
 		}
 		putchar('\n');
