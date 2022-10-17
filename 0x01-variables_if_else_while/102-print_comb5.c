@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	in a, b;
+	int a, b;
 
 	for (a = 0; a < 100; a++)
 	{
@@ -13,7 +13,7 @@ int main(void)
 		{
 			if (a < b)
 			{
-				putcahr((a / 10) + 48);
+				putchar((a / 10) + 48);
 				putchar((a % 10) + 48);
 				putchar(' ');
 				putchar((b / 10) + 48);
