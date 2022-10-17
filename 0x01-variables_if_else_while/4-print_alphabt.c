@@ -9,11 +9,12 @@ int main(void)
 
 	while (lcs <= 'z')
 	{
-		if((lcs !='e') && (lcs != 'q'))
+		if((lcs != 'e') && (lcs != 'q'))
 		{
 			putchar(lcs);
-			lcs++;
 		}
+		lcs++
 	}
+	putchar('\n');
 	return (0);
 }
