@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include <time.h>
 /**
- * More headers goes here
  * main- This determines weather the number is negetive or positive
  * betty sty doc for main fuction goes here
  * Return: Always 0 (success)
