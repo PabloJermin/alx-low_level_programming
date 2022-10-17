@@ -7,7 +7,7 @@ int main(void)
 {
 	int n;
 
-	for (n = 2; n < 22; n++)
+	for (n = 2; n < 12; n++)
 	{
 		putchar(n);
 		if (n != 21)
