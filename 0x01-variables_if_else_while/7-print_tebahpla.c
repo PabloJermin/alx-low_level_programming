@@ -3,7 +3,7 @@
  * main-Prints letters in reverse direction
  * Return: Always 0 (Success)
  */
-int main (void)
+int main(void)
 {
 	char alphi = 'z';
 	
@@ -14,5 +14,5 @@ int main (void)
 	}
 	putchar('\n');
 
-	return(0);
+	return (0);
 }
