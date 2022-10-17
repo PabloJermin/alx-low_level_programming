@@ -7,16 +7,16 @@ int main(void)
 {
 	int n;
 
-	for (n = 0; n < 9; n++)
+	for (n = 2; n < 22; n++)
 	{
 		putchar(n);
-		if (n !=8)
+		if (n != 21)
 		{
 			putchar(',');
 			putchar(' ');
 		}
 	}
 	putchar('\n');
-	
-	return(0);
+
+	return (0);
 }
