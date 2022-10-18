@@ -1,4 +1,4 @@
-#include "_putchar"
+#include "main.h"
 /**
  * main-This this the words onto the output
  * Return: 0
