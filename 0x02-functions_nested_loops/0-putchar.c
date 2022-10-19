@@ -5,7 +5,14 @@
  */
 int main(void)
 {
-	_putchar(_putchar);
+	char words = "_putchar";
+	int a = 0;
+
+	for (a = 0; a < 8; a++)
+	{
+		_putchar(a);
+	}
+	_putchar('\n');
 
 	return (0);
 }
