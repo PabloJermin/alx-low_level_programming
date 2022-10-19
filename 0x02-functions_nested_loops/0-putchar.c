@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main-This this the words onto the output
+ * main- print the words _putchar
  * Return: 0
  */
 int main(void)
@@ -14,5 +14,5 @@ int main(void)
 	}
 	_putchar('\n');
 
-	return (0);
+	return(0);
 }
