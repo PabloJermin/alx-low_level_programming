@@ -22,4 +22,4 @@ void times_table(void);
 
 void print_to_98(int n);
 
-nt add(int, int);
+int add(int, int);
