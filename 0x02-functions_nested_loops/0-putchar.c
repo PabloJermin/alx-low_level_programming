@@ -3,4 +3,9 @@
  * main-This this the words onto the output
  * Return: 0
  */
-_putchar("""_putchar\n""");
+int main(void)
+{
+	_putchar("_putchar\n");
+
+	return(0);
+}
