@@ -7,8 +7,8 @@ void times_table(void)
 {
 	int a;
 	int b;
-	int zero;
-	int ones
+	int zeros;
+	int ones;
 	int result;
 
 	for (a = 0; a <= 9; a++)
@@ -16,7 +16,7 @@ void times_table(void)
 		for (b = 0; b <= 9; b++)
 		{
 			result = a * b;
-			zero = result / 10;
+			zeros = result / 10;
 			ones = result % 10;
 			if (b == 0)
 			{
@@ -32,7 +32,7 @@ void times_table(void)
 			else
 			{
 				_putchar(',');
-				-putchar(' ');
+				_putchar(' ');
 				_putchar(zeros + '0');
 				_putchar(ones + '0');
 			}
