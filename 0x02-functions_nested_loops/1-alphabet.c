@@ -1,4 +1,4 @@
-#include "void print_alphabet(void)"
+#include "main.h"
 /**
  * main-this prints alphabets inlower case
  * Return: 0
