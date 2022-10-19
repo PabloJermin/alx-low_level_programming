@@ -5,11 +5,7 @@
  */
 void times_table(void)
 {
-	int a;
-	int b;
-	int zeros;
-	int ones;
-	int result;
+	int a; b; zeros; ones; result;
 
 	for (a = 0; a <= 9; a++)
 	{
