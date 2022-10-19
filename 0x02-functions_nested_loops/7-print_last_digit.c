@@ -4,13 +4,13 @@
  * @r : arguement for the function
  * Return: 0
  */
-int print_last_digit(int r)
+int print_last_digit(int n)
 {
-	int last = r % 10;
+	int last = n % 10;
 
-	if (r < 10)
+	if (n < 10)
 	{
-		last = r * -1;
+		last = n * -1;
 	}
 
 	_putchar(last + '0');
