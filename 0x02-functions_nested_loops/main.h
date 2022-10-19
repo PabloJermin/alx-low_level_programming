@@ -1,7 +1,4 @@
-#ifndef "_putchar"
-#define "_puchar"
 #include <unistd.h>
-#endif
 /**
  *
  *  * _putchar - writes the character c to stdout
