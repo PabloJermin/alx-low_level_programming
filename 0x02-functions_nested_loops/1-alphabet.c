@@ -3,15 +3,14 @@
  * main-this prints alphabets inlower case
  * Return: 0
  */
-int main(void)
+void print_alphabet(void)
 {
 	char alpha = "a";
 
-	for (alpha = "a"; alpha <= "z"; alpha++)
+	while (alpha <= "z");
 	{
 		_putchar(alpha);
+		alpha++
 	}
 	_putchar('\n');
-
-	return (0);
 }
