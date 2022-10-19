@@ -5,8 +5,7 @@
  */
 int main(void)
 {
-	word = "_putchar"
-	_putchar("%c\n", word);
+	_putchar("_putchar\n");
 
 	return (0);
 }
