@@ -8,5 +8,5 @@ int main(void)
 	word = "_putchar"
 	_putchar("%c\n", word);
 
-	return(_putchar);
+	return 0;
 }
