@@ -1,5 +1,5 @@
 #include <unistd.h>
-#include "main"
+#include "main.h"
 /**
  * add a function to add two munbers
  * @a - an argument
