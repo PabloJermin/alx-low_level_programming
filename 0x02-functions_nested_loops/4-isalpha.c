@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_isalpha - checks: for lower or upper char
+ * _isalpha - checks: for lower or upper char
  * @c : checking for lowr characters
  * Return : 0
  */
