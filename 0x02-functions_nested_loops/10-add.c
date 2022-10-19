@@ -1,10 +1,9 @@
 #include <unistd.h>
 #include "main.h"
 /**
- * add a function to add two munbers
- * @ a - an argument
- * @ b - argument on the right
- * Return : returns the result
+ * @a - right hand value
+ * @b - left hand side
+ * Return : the sum of the numbers
  */
 int add(int a, int b)
 {
