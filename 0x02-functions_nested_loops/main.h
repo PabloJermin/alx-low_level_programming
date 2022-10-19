@@ -1,7 +1,7 @@
-#ifndef "MAIN_H"
-#define "MAIN_H"
-
+#ifndef "_putchar"
+#define "_puchar"
 #include <unistd.h>
+#endif
 /**
  *
  *  * _putchar - writes the character c to stdout
@@ -12,15 +12,15 @@
  *
  *     * Return: On success 1.
  *
- *      * On error, -1 is returned, and errno is set appropriately.
+ *     * On error, -1 is returned, and errno is set appropriately.
  *
- *       */
-
-int _putchar(char c)
-
+ **/
+int main(void)
 {
-
+	int _putchar(char c)
+	{
 		return (write(1, &c, 1));
+	}
 
+	return(_putchar);
 }
-#endif
