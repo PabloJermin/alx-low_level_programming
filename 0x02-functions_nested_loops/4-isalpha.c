@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _isalpha: checks: for lower or upper char
+ * _isalpha - checks: for lower or upper char
  * @c : checking for lowr characters
- * Return : 1 (if true) 
- */
+ * Return : 0 (if true)
+ * */
 int _isalpha(int c)
 {
 	if (c >= 'a' && c <= 'z')
