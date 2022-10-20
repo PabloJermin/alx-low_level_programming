@@ -2,7 +2,7 @@
 /**
  * _isalpha - checks: for lower or upper char
  * @c : checking for lowr characters
- * Return : 0
+ * Return : will return 0 if false
  */
 int _isalpha(int c)
 {
