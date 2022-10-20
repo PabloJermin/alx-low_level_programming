@@ -15,16 +15,8 @@ void times_table(void)
 			_putchar(result);
 			_putchar(',');
 			_putchar(' ');
-			if (b == 0)
-			{
-				_putchar('0');
-			}
-			else if (a == 0)
-			{
-				_putchar('0');
-			}
-
-			_putchar('\n');
+			_putchar(' ');
 		}
+		_putchar('\n');
 	}
 }
