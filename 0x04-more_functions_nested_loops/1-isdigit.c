@@ -1,5 +1,5 @@
-#include <stdio>
-#include "main"
+#include <stdio.h>
+#include "main.h"
 /**
  * _isdigit - looks out for a number
  * @c: am iargument to check for a number
