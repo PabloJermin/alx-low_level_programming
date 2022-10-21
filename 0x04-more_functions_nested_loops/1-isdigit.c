@@ -12,13 +12,13 @@ int _isdigit(int c)
 	for (x = 0; x <= 10; x++)
 	{
 		y = x;
-	}
-	if (c == 9)
-	{
-		return (1);
-	}
-	else
-	{
-		return (0);
+		if (c == y)
+		{
+			return (1);
+		}
+		else
+		{
+			return (0);
+		}
 	}
 }
