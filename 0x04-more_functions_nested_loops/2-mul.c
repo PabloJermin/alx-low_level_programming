@@ -8,5 +8,8 @@
  */
 int mul(int a, int b)
 {
-	return(a * b);
+	int a = first_di;
+	int b = second_di;
+	int result = first_di * second_di;
+		return (results);
 }
