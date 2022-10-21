@@ -7,9 +7,9 @@
  */
 int _isupper(int c)
 {
-	int c;
+	char word;
 
-	if (c == isupper())
+	if (isupper(word))
 	{
 		return (1);
 	}
