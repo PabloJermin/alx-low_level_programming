@@ -8,9 +8,7 @@
  */
 int _isupper(int c)
 {
-	char word;
-
-	if (word >= 'A' && word <= 'Z')
+	if (c >= 'A' && c <= 'Z')
 	{
 		return (1);
 	}
