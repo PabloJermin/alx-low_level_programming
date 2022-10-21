@@ -7,12 +7,11 @@
  */
 int _isdigit(int c)
 {
-	int x = 0;
-	int y;
+	int x;
+	
 	for (x = 0; x <= 10; x++)
 	{
-		y = x;
-		if (c == y)
+		if (c == x)
 		{
 			return (1);
 		}
