@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio>
+#include <stdio.h>
 /**
  * _isupper : chesks for upper case letter
  * @c : an argument of integer
