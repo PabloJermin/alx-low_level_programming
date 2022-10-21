@@ -2,7 +2,7 @@
 #include <ctype.h>
 #include <stdio.h>
 /**
- * _isupper : chesks for upper case letter
+ * _isupper - chesks for upper case letter
  * @c : an argument of integer
  * Return : returns 1 if true or 0
  */
