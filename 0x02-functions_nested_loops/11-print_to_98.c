@@ -2,6 +2,8 @@
 #include <stdio.h>
 /**
  * print_to_98 - Print values
+ * @r: a variable for spave
+ * @co: a variable for comma
  * Return: Returns 0 and 1
  */
 void print_to_98(int n)
@@ -10,10 +12,22 @@ void print_to_98(int n)
 	char r = ' ';
 	char co = ',';
 
-	for (x = n; x <= 98; x++)
+	if (n > 98)
 	{
+		for (x = n; x < 99; x--)
+		{
 		printf("%i", x);
 		printf("%c", co);
 		printf("%c", r);
+		}
+	}
+	else
+	{
+		for (x = n; x <= 99; x++)
+		{
+			printf("%i", x);
+			printf("%c", co);
+			printf("%c", r);
+		}
 	}
 }
