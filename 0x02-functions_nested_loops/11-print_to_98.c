@@ -12,9 +12,13 @@ void print_to_98(int n)
 	char r = ' ';
 	char co = ',';
 
-	if (n > 98)
+	if (n == 98)
 	{
-		for (x = n; x == 98; x--)
+		printf("%i", n);
+	}
+	else if (n > 98)
+	{
+		for (x = n; x > 98; x--)
 		{
 		printf("%i", x);
 		printf("%c", co);
@@ -23,15 +27,11 @@ void print_to_98(int n)
 	}
 	else
 	{
-		for (x = n; x <= 97; x++)
+		for (x = n; x <= 98; x++)
 		{
 			printf("%i", x);
 			printf("%c", co);
 			printf("%c", r);
-			if (x == 98)
-			{
-				printf("%i", x);
-			}
 		}
 	}
 }
