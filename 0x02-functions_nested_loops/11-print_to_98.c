@@ -6,14 +6,15 @@
  */
 void print_to_98(int n)
 {
-	int n;
 	int x;
+	char r = ' ';
+	char co = ',';
 
 	for (x = n; x <= 98; x++)
 	{
 		printf("%i", x);
-		printf(',');
-		printf(' ');
+		printf("%c", co);
+		printf("%c", r);
 	}
 	return (0);
 }
