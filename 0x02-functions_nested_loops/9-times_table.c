@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * times_table - myltiplying the time table for 
+ * times_table - myltiplying the time table for
  * Return : always 0
  */
 void times_table(void)
