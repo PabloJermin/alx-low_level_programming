@@ -2,8 +2,7 @@
 #include <stdio.h>
 /**
  * print_to_98 - Print values
- * @r: a variable for spave
- * @co: a variable for comma
+ * @n: a variable from user
  * Return: Returns 0 and 1
  */
 void print_to_98(int n)
@@ -15,23 +14,45 @@ void print_to_98(int n)
 	if (n == 98)
 	{
 		printf("%i", n);
-	}
-	else if (n > 98)
-	{
-		for (x = n; x > 98; x--)
-		{
-		printf("%i", x);
-		printf("%c", co);
 		printf("%c", r);
+		printf("\n");
+	}
+	else if (n >= 98)
+	{
+		for (x = n; x >= 98; x--)
+		{
+			if(x == 98)
+			{
+				printf("%i", x);
+				printf("%c", r);
+				printf("\n");
+			}
+			else
+			{
+				printf("%i", x);
+				printf("%c", co);
+				printf("%c", r);
+				printf("\n")
+			}
 		}
 	}
 	else
 	{
 		for (x = n; x <= 98; x++)
 		{
-			printf("%i", x);
-			printf("%c", co);
-			printf("%c", r);
+			if (x == 98)
+			{
+				printf("%i", x);
+				printf("%c", r);
+				printf("\n");
+			}
+			else
+			{
+				printf("%i", x);
+				printf("%c", co);
+				printf("%c", r);
+				printf("\n");
+			}
 		}
 	}
-}
+}	
