@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * print_numbers - printing numbers
  * Return: void
@@ -12,6 +13,4 @@ void print_numbers(void)
 		_putchar(x);
 	}
 	_putchar('\n');
-
-	return (0);
 }
