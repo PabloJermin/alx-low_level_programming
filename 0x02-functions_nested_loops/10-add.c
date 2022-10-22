@@ -3,8 +3,8 @@
 
 /**
  * add - addition of two variables
- * @a: right hand value
- * @b: left hand side
+ * @a: assign a value to a
+ * @b: assign a value to b
  * Return : the sum of the numbers
  */
 int add(int a, int b)
