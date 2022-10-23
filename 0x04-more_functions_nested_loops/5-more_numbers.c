@@ -7,13 +7,13 @@ void more_numbers(void)
 {
 	int x, y, re;
 
-	for (x = 0; x < 10; x++)
+	for (x = 0; x <= 9; x++)
 	{
-		for (y = 48; y <= 57; y++)
+		for (y = 0; y <= 9; y++)
 		{
 			re = y % 10;
 
-			if (y > 57)
+			if (y > 9)
 			{
 				_putchar(y + re);
 			}
