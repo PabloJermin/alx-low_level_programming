@@ -16,8 +16,11 @@ void more_numbers(void)
 			
 			if (y > 9)
 			{
-				_putchar(rem + 48);
-				_putchar(mod + 48);
+				_putchar(rem + mod);
+			}
+			else
+			{
+				_putchar(y);
 			}
 			_putchar('\n');
 		}
