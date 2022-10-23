@@ -25,16 +25,15 @@ void print_to_98(int n)
 			{
 				printf("%i", x);
 				printf("%c", r);
-				printf("\n");
 			}
 			else
 			{
 				printf("%i", x);
 				printf("%c", co);
 				printf("%c", r);
-				printf("\n");
 			}
 		}
+		printf("\n");
 	}
 	else
 	{
@@ -44,15 +43,14 @@ void print_to_98(int n)
 			{
 				printf("%i", x);
 				printf("%c", r);
-				printf("\n");
 			}
 			else
 			{
 				printf("%i", x);
 				printf("%c", co);
 				printf("%c", r);
-				printf("\n");
 			}
 		}
+		printf("\n");
 	}
-}	
+}
