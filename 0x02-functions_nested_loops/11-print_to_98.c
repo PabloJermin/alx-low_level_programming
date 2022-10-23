@@ -8,8 +8,7 @@
 void print_to_98(int n)
 {
 	int x;
-	char r = ' ';
-	char co = ',';
+	char r = ' ', co = ',';
 
 	if (n == 98)
 	{
