@@ -14,17 +14,15 @@ void print_to_98(int n)
 	if (n == 98)
 	{
 		printf("%i", n);
-		printf("%c", r);
 		printf("\n");
 	}
 	else if (n >= 98)
 	{
 		for (x = n; x >= 98; x--)
 		{
-			if(x == 98)
+			if (x == 98)
 			{
 				printf("%i", x);
-				printf("%c", r);
 			}
 			else
 			{
@@ -42,7 +40,6 @@ void print_to_98(int n)
 			if (x == 98)
 			{
 				printf("%i", x);
-				printf("%c", r);
 			}
 			else
 			{
