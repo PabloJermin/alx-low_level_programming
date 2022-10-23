@@ -1,5 +1,4 @@
 #include <stdio>
-#include "main"
 /**
  * main - printing numbers
  *Returns: fizzbuzz
@@ -10,20 +9,28 @@ int main (void)
 
 	for (x = 1; x <= 100; x++)
 	{
-		if(x % 3 == 0 && x % 5 == 0)
+		int p,r,s;
+		char s = ' ';
+		char f = "Fizz";
+		char b = "Buzz";
+		char fb = "FizzBuzz";
+		p = x % 3;
+		r = x % 5;
+
+		if(p == 0 && r == 0)
 		{
-		_putchar('FizzBuzz');
-		_putchar(' ');
+			printf("%c", fb);
+			printf("%c", s);
 		}
-		else if (x % 3 == 0)
+		else if (p == 0)
 		{
-			_putchar('Fizz');
-			_putchar(' ');
+			printf("%c", f);
+			printf("%c", s)
 		}
 		else if (x % 5 == 0)
 		{
-			_putchar('Buzz');
-			_putchar(' ');
+			printf("%c", b);
+			printf("%c", s);
 		}
 		else
 		{
