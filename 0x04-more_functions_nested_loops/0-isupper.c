@@ -1,7 +1,6 @@
 #include "main.h"
 #include <ctype.h>
 #include <stdio.h>
-
 /**
  * _isupper - chesks for upper case letter
  * @c: an argument of integer
