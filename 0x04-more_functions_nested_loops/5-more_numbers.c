@@ -7,9 +7,9 @@ void more_numbers(void)
 {
 	int x, y, mod, rem;
 
-	for (x = 0; x <= 9; x++)
+	for (x = 0; x <= 10; x++)
 	{
-		for (y = 0; y < 15; y++)
+		for (y = 0; y <= 14; y++)
 		{
 			mod = y % 10;
 			rem = y / 10;
