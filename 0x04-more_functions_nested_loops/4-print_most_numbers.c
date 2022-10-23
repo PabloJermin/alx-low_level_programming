@@ -10,7 +10,7 @@ void print_most_numbers(void)
 
 	for (x = 0; x <= 9; x++)
 	{
-		y =x;
+		y = x;
 
 		if (x != 2 || x != 4)
 		{
@@ -20,6 +20,6 @@ void print_most_numbers(void)
 		{
 		
 		}
-		_putchar('\n');
 	}
+	_putchar('\n');
 }
