@@ -7,7 +7,7 @@ void more_numbers(void)
 {
 	int x, y, mod, rem;
 
-	for (x = 0; x <= 10; x++)
+	for (x = 0; x < 10; x++)
 	{
 		for (y = 0; y <= 14; y++)
 		{
@@ -16,11 +16,8 @@ void more_numbers(void)
 			
 			if (y > 9)
 			{
-				_putchar(rem + mod);
-			}
-			else
-			{
-				_putchar(y);
+				_putchar(rem + 48);
+				_putchar(mod + 48);
 			}
 			_putchar('\n');
 		}
