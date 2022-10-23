@@ -4,7 +4,7 @@
 /**
  * _isupper - checks for uppercase letter
  * @c: an argument of integer
- * Return : returns 1 if true or 0
+ * Return: returns 1 if true or 0
  */
 int _isupper(int c)
 {
