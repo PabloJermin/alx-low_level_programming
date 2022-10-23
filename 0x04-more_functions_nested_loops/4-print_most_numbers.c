@@ -1,22 +1,22 @@
 #include "main.h"
-
 /**
  * print_most_numbers - To print some numbers
  * Return: Always 0
  */
 void print_most_numbers(void)
 {
-	int x = 0;
+	int x;
 
-	for (x <= 9; x++)
+	for (x = 48; x <= 57; x++)
 	{
-		if (x = 2 || x = 4)
+		if (x = 50 || x = 68)
 		{
-			_putchar('\n');
+			return (0);
 		}
 		else
 		{
 			_putchar(x);
 		}
+		_putchar('\n');
 	}
 }
