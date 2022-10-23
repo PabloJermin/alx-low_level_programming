@@ -7,7 +7,7 @@ void print_most_numbers(void)
 {
 	int x;
 
-	for (x = 0; x <= 57; x++)
+	for (x = 48; x <= 57; x++)
 	{
 		if (x != 50 || x != 52)
 		{
@@ -15,7 +15,7 @@ void print_most_numbers(void)
 		}
 		else
 		{
-			return (void);
+			return (0);
 		}
 		_putchar('\n');
 		
