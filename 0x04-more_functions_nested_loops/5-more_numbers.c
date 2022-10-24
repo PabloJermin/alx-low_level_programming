@@ -13,9 +13,16 @@ void more_numbers(void)
 		{
 			mod = y % 10;
 			rem = y / 10;
-			
-			_putchar(y);
+		
+			if (y > 9)
+			{
+				_putchar(rem + mod);
+			}
+			else
+			{
+				_putchar(y);
+			}
 		}
-			_putchar('\n');
+		_putchar('\n');
 	}
 }
