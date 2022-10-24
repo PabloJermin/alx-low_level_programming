@@ -5,7 +5,7 @@
  */
 void more_numbers(void)
 {
-	int x, y, mod;
+	int x, y, mod, far;
 
 	for (x = 0; x < 10; x++)
 	{
@@ -13,10 +13,12 @@ void more_numbers(void)
 		{
 			rem = 0;
 			mod = rem % 10;
+			far = rem / 10;
 
+			_putchar(far);
 			_putchar(mod);
 			rem++;
 		}
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
