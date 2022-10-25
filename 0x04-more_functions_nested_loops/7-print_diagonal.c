@@ -2,6 +2,7 @@
 
 /**
  * print_diagonal - printing diagonal lines
+ * @n: parameter for number or rows and colums
  * Return: Always 0
  */
 void print_diagonal(int n)
@@ -20,6 +21,7 @@ void print_diagonal(int n)
 			{
 				if (j != n)
 				{
+					_putchar(' ');
 				}
 				else
 				{
