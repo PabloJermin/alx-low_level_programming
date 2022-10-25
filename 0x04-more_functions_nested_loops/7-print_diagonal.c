@@ -6,7 +6,7 @@
  */
 void print_diagonal(int n)
 {
-	bar = "\\";
+	char bar = "\\";
 	
 	for (int i = 0; i <= n; i++)
 	{
