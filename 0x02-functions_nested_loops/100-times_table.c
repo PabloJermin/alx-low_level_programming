@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
  * print_times_table - printing times table
  * @n: the parameter for the number of times
