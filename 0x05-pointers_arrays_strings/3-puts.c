@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * _puts - prints a string
- * @: str: a string parameter for the function
+ * @str: a string parameter for the function
  * Return: Returns a number
  */
 void _puts(char *str)
