@@ -3,7 +3,7 @@
  * _strcat - strings together
  * @dest: an argumetn to the function
  * @src: an aurgument for the function
- * Retun: Always a 
+ * Retun: Always a
  */
 char *_strcat(char *dest, char *src)
 {
