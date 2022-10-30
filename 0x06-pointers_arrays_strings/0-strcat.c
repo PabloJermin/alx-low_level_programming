@@ -3,13 +3,13 @@
  * _strcat - strings together
  * @dest: an argumetn to the function
  * @src: an aurgument for the function
- * Retun: Always 0
+ * Retun: Always a 
  */
 char *_strcat(char *dest, char *src)
 {
 	char *a = dest;
 
-	while (dest != '\0')
+	while (*dest != '\0')
 	{
 		dest++;
 	}
