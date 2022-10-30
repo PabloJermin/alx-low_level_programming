@@ -13,7 +13,7 @@ char *leet(char *s)
 	while (s[a])
 	{
 		b = 0;
-		while (b < 1)
+		while (b < l)
 		{
 			if (s[a] == m[b] || s[a] - 32 == m[b])
 			{
