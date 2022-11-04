@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * is_prime_number - indicates a prime number
- * 
  * @n: is a parameter to be function
  * Return: Always 1 or 0
  */
