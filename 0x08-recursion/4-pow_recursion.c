@@ -13,12 +13,15 @@ int _pow_recursion(int x, int y)
 	{
 		return (-1);
 	}
-	else if (y == 0)
+	else if (y == 0 || x == 1)
 	{
 		return (1);
 	}
 
-	else 
-		result = _pow_recursion(x * x) * y;
-
-	return (result);
+	else if (x % 2 == 0)
+	{
+		return (_pow_recursion(x, y/2) * _pow_recursion(x, y/2));
+	}
+	else
+	{
+		return (x * _pow_recursion(x, y/2) * _pow_recursion(x, y/2));
