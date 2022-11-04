@@ -17,7 +17,7 @@ int _varincrease(int n, int i)
 	}
 	else if (i * i < n)
 	{
-		return (_varincrease(n + 1, i));
+		return (_varincrease(n, 1 + i));
 	}
 	return (i);
 }
