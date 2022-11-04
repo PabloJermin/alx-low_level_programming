@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * varincrease = increases a var by 1
+ * _varincrease = increases a var by 1
  * @n: a variable for the function
  * @i: a second variable for the function
  * Return: always a number
@@ -17,7 +17,7 @@ int _varincrease(int n, int i)
 	}
 	else if (i * i < n)
 	{
-		return (_varincrease(i + 1, n));
+		return (_varincrease(n + 1, i));
 	}
 	return (i);
 }
@@ -28,7 +28,7 @@ int _varincrease(int n, int i)
  */
 int _sqrt_recursion(int n)
 {
-	if (n < 0 )
+	if (n < 0)
 	{
 		return (-1);
 	}
@@ -36,7 +36,7 @@ int _sqrt_recursion(int n)
 	{
 		return (0);
 	}
-	else if (n > 1 )
+	else if (n > 1)
 	{
 		return (_varincrease(n, 1));
 	}
