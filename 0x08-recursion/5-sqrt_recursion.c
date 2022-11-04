@@ -5,20 +5,21 @@
  * @i: a second variable for the function
  * Return: always a number
  */
-int varincrease(int n, int i,)
+int _varincrease(int n, int i,)
 {
-	if (n * n == i)
+	if (i * i == n)
 	{
-		return (n);
+		return (1);
 	}
-	else if (n * n > i)
+	else if (i * i > n)
 	{
 		return (-1)
 	}
-	else if (n * n < i)
+	else if (i * i < n)
 	{
-		return (varincrease(n + 1, n));
+		return (varincrease(i + 1, n));
 	}
+	return (i);
 }
 /**
  * _sqrt_recursion - a square root of the function
@@ -37,6 +38,7 @@ int _sqrt_recursion(int n)
 	}
 	else if (n > 1 )
 	{
-		return (varincrease(1, n));
+		return (varincrease(n, 1));
 	}
 	return (-1);
+}
