@@ -13,7 +13,7 @@ int _varincrease(int n, int i)
 	}
 	else if (i * i > n)
 	{
-		return (-1)
+		return (-1);
 	}
 	else if (i * i < n)
 	{
