@@ -3,6 +3,7 @@
  * _strchr - locating the character of a string
  * @s: a parameter to the function
  * @c: a parameter to the function
+ * Return: always returns a number
  */
 char *_strchr(char *s, char c)
 {
