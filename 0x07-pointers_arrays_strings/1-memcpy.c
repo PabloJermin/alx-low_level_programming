@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _memcpy -  copy a memory to a variable
+ * *_memcpy -  copy a memory to a variable
  * @dest: a variable to hold a copied item
  * @src: the parameter of the source
  * @n: the parameter to receive the number
