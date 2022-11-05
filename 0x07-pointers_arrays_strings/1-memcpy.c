@@ -4,6 +4,7 @@
  * @dest: a variable to hold a copied item
  * @src: the parameter of the source
  * @n: the parameter to receive the number
+ * Return: returns a character
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
