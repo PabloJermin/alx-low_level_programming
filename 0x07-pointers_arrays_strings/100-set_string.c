@@ -8,6 +8,6 @@ void set_string(char **s, char *to)
 {
 	char a = &to;
 	char b = &s;
-
-	**to = b;
-	***s = a;
+	
+	*s = to;
+}
