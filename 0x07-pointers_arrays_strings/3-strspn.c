@@ -19,6 +19,10 @@ unsigned int _strspn(char *s, char *accept)
 				k = k + 1;
 			}
 		}
+		if (s[i] == '\0')
+		{
+			break;
+		}
 	}
 	return (k);
 }
