@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h>
-/**print_diagsums - printing the sum of diagonals
+/**
+ * print_diagsums - printing the sum of diagonals
  * @a: the parameter of the unction
  * @size: the sixe of the parameter
  * Return: a return value for the function
