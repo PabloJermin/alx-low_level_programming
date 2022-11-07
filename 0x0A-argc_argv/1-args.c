@@ -5,10 +5,10 @@
  * @argv: the index of the name of file
  * Return: a return value of the function
  */
-int main(int argc, **char argv[])
+int main(int argc, **char argv)
 {
 	int i = 0;
-	
+
 	while (argc ++)
 	{
 		printf("%s\n", argv[i]);
