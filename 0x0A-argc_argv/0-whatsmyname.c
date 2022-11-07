@@ -2,8 +2,8 @@
 /**
  * main - a function to
  * @arg: parameter for the name of file
- * @argv: parameter for the position of file name 
- * Return : Always a number
+ * @argv: parameter for the position of file name
+ * Return : Always a numbe
  */
 int main (int argc_attribute_((unused)), char *argv[])
 {
