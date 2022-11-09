@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 	int numb2 = atoi(argv[1]);
 	int result;
 
-	result = numb1 * number2;
+	result = numb1 * numb2;
 	printf("%d\n", result);
 
 	return (0);
