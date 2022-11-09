@@ -6,18 +6,17 @@
 void more_numbers(void)
 {
 	int x, y, mod, far;
+	int n = 14;
 
 	for (x = 0; x < 10; x++)
 	{
-		for (y = 0; y <= 14; ++y)
+		for (y = 0; y <= n; ++y)
 		{
-			rem = 0;
-			mod = rem % 10;
-			far = rem / 10;
+			mod = y % 10;
+			far = y / 10;
 
 			_putchar(far);
 			_putchar(mod);
-			rem++;
 		}
 		_putchar('\n');
 	}
