@@ -2,7 +2,7 @@
 /**
  * main - a function to print name of program
  * @argc: parameter for the name of file
- * @argv[]: parameter for the position of file name
+ * @argv: parameter for the position of file name
  * Return : Always a numbe
  */
 int main (int argc, char *argv[])
