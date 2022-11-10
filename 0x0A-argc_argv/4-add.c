@@ -2,8 +2,8 @@
 #include <stdlib.h>
 /**
  * main - a program that adds positive numbers
- * @argv: an argument to the function 
- * @argc: an argument to the function 
+ * @argv: an argument to the function
+ * @argc: an argument to the function
  * Return: Always zero or 1
  */
 int main(int argc, char *argv[])
@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 			if (argv[j][z] < '0' || argv[j][z] > '9')
 			{
 				printf("Error\n");
-				return(1);
+				return (1);
 			}
 		}
 	}
