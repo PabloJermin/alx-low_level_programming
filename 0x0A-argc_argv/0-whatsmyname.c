@@ -5,7 +5,7 @@
  * @argv: parameter for the position of file name
  * Return: Always a number 0 or 1
  */
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	printf("%s\n", argv[argc * 0]);
 
