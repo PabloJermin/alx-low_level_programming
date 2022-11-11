@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - prints fibonacci numbers
- * Return: the fibonacci numbers 
+ * Return: the fibonacci numbers
  */
 int main(void)
 {
