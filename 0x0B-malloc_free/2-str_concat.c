@@ -26,6 +26,6 @@ char *str_concat(char *s1, char *s2)
 	}
 	p = malloc(sizeof(s1)*len);
 	for (i = 0; i <= len; i++)
-		p = s3;
+		p[i] = s3[i];
 	return (p);
 }
