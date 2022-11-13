@@ -6,7 +6,7 @@
  * @c: the character to be mapped to
  * Return: always a number
  */
-*create_array(unsigned int size, char c)
+char *create_array(unsigned int size, char c)
 {
 	char *p;
 	unsigned int i;
