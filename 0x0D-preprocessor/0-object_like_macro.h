@@ -4,9 +4,9 @@
  * main - an empty function
  * Return: returns 1
  */
-#define SIZE 1024;
+#define SIZE 1024
 
 int main(void)
 {
-	return (0)
+
 }
