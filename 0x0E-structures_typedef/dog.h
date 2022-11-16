@@ -1,5 +1,8 @@
-/** struct dog : a definition for struct 
+/**
+ * dog: a definition for struct
  */
+#ifndef __dog.h__
+#define __dog.h__
 typedef struct dog dog;
 struct dog
 {
@@ -7,3 +10,4 @@ struct dog
 	float age;
 	char *owner;
 };
+#endif
