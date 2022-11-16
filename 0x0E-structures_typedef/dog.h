@@ -1,7 +1,7 @@
 /** struct dog : a definition for struct 
  */
 #ifndef typedef struct dog
-#def struct typedef dog
+#define struct typedef dog
 typedef struct dog dog;
 struct dog
 {
