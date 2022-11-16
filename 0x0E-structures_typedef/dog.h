@@ -1,4 +1,4 @@
-typedef struct dog dog
+typedef struct dog dog;
 struct dog
 {
 	char *name;
