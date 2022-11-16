@@ -3,6 +3,7 @@
 /**main - functionlike macros
  * Return: always a success
  */
-#ifndef ABS(x)
+#ifndef _function-Like_macros_h_
+#define _function_like_macros_h_
 #define ABS(x) (((x) < (0)) ? ((x) * (-1)) : (x))
-#endif
+#endif/*_function_like_macros_h_*/
