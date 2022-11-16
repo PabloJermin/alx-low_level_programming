@@ -3,4 +3,6 @@
 /**main - functionlike macros
  * Return: always a success
  */
-#define ABS(x) unsigned(x)
+#ifndef ABS(x)
+#define ABS(x) (-x) ? *(-1) : *(1)
+#endif
