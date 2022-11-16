@@ -1,4 +1,4 @@
-#ifndef _function-like_macros_h_
-#define _function_like_macros_h_
+#ifndef function-like_macros_h_
+#define function_like_macros_h_
 #define ABS(x) (((x) < (0)) ? ((x) * (-1)) : (x))
-#endif/*_function_like_macros_h_*/
+#endif/* function_like_macros_h_ */
