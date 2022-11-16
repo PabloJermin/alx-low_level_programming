@@ -1,6 +1,5 @@
 /** struct dog : a definition for struct 
  */
-#include "dog.h"
 typedef struct dog dog;
 struct dog
 {
