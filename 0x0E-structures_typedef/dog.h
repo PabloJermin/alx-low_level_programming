@@ -1,7 +1,6 @@
 /** struct dog : a definition for struct 
  */
-#ifndef dog
-#define dog
+#include "dog.h"
 typedef struct dog dog;
 struct dog
 {
@@ -9,4 +8,3 @@ struct dog
 	float age;
 	char *owner;
 };
-#endif /*struct dog*/
