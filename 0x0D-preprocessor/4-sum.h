@@ -1,5 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#ifndef SUM
+#ifndef _4_SUM_H_
 #define SUM(x, y) ((x) + (y))
 #endif
