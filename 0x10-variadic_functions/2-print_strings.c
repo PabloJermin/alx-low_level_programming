@@ -13,7 +13,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	va_list numbs;
 	char s = va_numbs(numbs, char);
 
-	va_start(numb, n);
+	va_start(numbs, n);
 	for ( i = 0; i < n; i++)
 	{
 		if (separator == NULL)
@@ -26,6 +26,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		{
 			printf("(nil)");
 		}
+		va_end(numbs)
 		printf("\n");
 	}
 }
