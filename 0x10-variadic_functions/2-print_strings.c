@@ -15,7 +15,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	char *p, *a;
 
 	if (separator == NULL || *separator == 0)
- 		sp = "";
+ 		sp = " ";
 	else
 		sp = (char *) separator;
 	va_start(numbs, n);
@@ -25,7 +25,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		p = va_arg(numbs, char*);
 		if(p == NULL)
 			p = "(nil)";
-		printf("%s\n", p);
+		printf("%s%s\n", sp, p);
 	}
 	if(n > 0)
 	{
