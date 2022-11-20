@@ -18,18 +18,18 @@ void print_strings(const char *separator, const unsigned int n, ...)
  		sp = " ";
 	else
 		sp = (char *) separator;
-	va_start(numbs, n);
+	va_start(chas, n);
 
 	for ( i = 0; i < n; i++)
 	{
-		p = va_arg(numbs, char*);
+		p = va_arg(chas, char*);
 		if(p == NULL)
 			p = "(nil)";
 		printf("%s%s\n", sp, p);
 	}
 	if(n > 0)
 	{
-		a = va_arg(numbs, char*);
+		a = va_arg(chas, char*);
 		printf("%s\n", a);
 	}
 	va_end(numbs);
