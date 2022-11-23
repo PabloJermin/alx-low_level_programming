@@ -2,8 +2,8 @@
 #include <stdio.h>
 #include "dog.h"
 /**
- * _dog - a function to initialize a variable
- * @dog: the name of the object 
+ *init_dog - a function to initialize a variable
+ * @d: the name of the object
  * @name: the name of the object
  * @age: the age of the dog
  * @owner: the owner of the dog
