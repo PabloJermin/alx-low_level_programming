@@ -17,7 +17,7 @@
  * Return: Returns result
  */
 int op_sub(int a, int b)
-{
+i{
 	return (a - b);
 }
 /**
