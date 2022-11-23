@@ -4,7 +4,7 @@
  * @b: int 2
  * Return: Returns result
  */
- int op_add(int a, int b)
+int op_add(int a, int b)
 {
 	return (a + b);
 }
