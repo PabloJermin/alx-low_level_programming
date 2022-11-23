@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include "main.h"
+#include "dog.h"
 /**
  * _dog - a function to initialize a variable
  * @dog: the name of the object 
