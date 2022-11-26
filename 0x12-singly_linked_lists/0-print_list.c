@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "lists.h"
 /**
  * print_list - a function that prints the list provode in a function
