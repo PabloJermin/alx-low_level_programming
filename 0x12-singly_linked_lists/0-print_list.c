@@ -6,8 +6,7 @@
  * @list_t : an argument to the function
  * @h : an argument pointer to the function
  * Return : always true
- */
-/**
+ *
  * struct list_s - singly linked list
  * @str: string - (malloc'ed string)
  * @len: length of the string
