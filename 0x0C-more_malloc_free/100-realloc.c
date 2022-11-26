@@ -1,47 +1,39 @@
 #include "main.h"
-#include <stdio.h>
 #include <stdlib.h>
 /**
- * simple_print_buffer - prints buffer in hexa
- * @buffer: the address of memory to print
- * @size: the size of the memory to print
- * Return: Nothing.
+ * _realloc - Main Entry
+ * @ptr: input
+ * @old_size: input
+ * @new_size: input
+ * Return: 0
  */
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
-	void *tmp;
-	unsigned int i;
+	char *p;
 
-	if (new_size == old_size)
-		return (ptr);
+	unsigned int i, max = new_size;
+
+	char *oldp = ptr;
+
 	if (ptr == NULL)
 	{
-		tmp = malloc(new_size);
-		if (tmp == NULL)
-			return (NULL);
-		return (tmp);
+		p = malloc(new_size);
+		return (p);
 	}
-	if ((new_size == 0) && (ptr != NULL))
+	else if (new_size == 0)
 	{
-		tmp = malloc(new_size);
-		if (tmp == NULL)
-			return (NULL);
-		for (i = 0; i < old_siz; i++)
-			((char *)tmp)[i] = ((char *)ptr)[i];
 		free(ptr);
-		return (tmp);
+		return (NULL);
 	}
-	else 
-	{
-		tmp = malloc(new_size); 
-		if (tmp == NULL)
-			return (NULL);
-		for (i = 0; i < new_size; i++)
-		{
-			((char *)tmp)[i] = ((char *)ptr)[i]
-		}
-		free(ptr);
-		return (tmp);
-	}
-	return (NULL);
+	else if (new_size == old_size)
+		return (ptr);
+	p = malloc(new_size);
+	if (p == NULL)
+		return (NULL);
+	if (new_size > old_size)
+		max = old_size;
+	for (i = 0; i < max; i++)
+		p[i] = oldp[i];
+	free(ptr);
+	return (p);
 }
