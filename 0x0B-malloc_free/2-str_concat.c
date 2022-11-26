@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.>
+#include <stdio.h>
 #include <stdlib.h>
 /**
  * str_concat - Main Entry
