@@ -1,12 +1,13 @@
 #include "lists.h"
 /**
  * print_list - a function that prints the list provode in a function
- * @h : an argument pointer to the function
- * Return : always true
+ * @h: an argument pointer to the function
+ * Return: always true
  */
 size_t print_list(const list_t *h)
 {
 	size_t tem;
+
 	tem = 0;
 
 	while (h != NULL)
