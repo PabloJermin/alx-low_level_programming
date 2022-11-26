@@ -26,7 +26,8 @@ size_t print_list(const list_t *h)
 
 	while (temp != NULL)
 	{
-		printf("%d", temp -> list_t);
+		printf("%d", temp -> str);
+		printf("%d", temp -> len);
 	}
 	else
 		printf("nil");
