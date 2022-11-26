@@ -22,7 +22,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	dog->name = malloc(nl * sizeof(char));
 	if (dog->name == NULL)
 	{
-		ree(dog);
+		free(dog);
 		return (NULL);
 	}
 	for (i = 0; i < nl; i++)
