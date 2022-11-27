@@ -1,26 +1,29 @@
 #include "main.h"
-#define NULL 0
 /**
- * _strpbrk - return pointer to byte in s that matches a byte in accept
- * @s: string to search
- * @accept: target matches
- * Return: pointer to index of string at first occurence
+ * _strstr - function locate
+ * @haystack: pointer to char
+ * @needle: pointer to char
+ * Return: 0
  */
-char *_strpbrk(char *s, char *accept)
+char *_strstr(char *haystack, char *needle)
 {
-	int x = 0, y;
-
-	while (s[x] != '\0')
+	char *result = haystack, *fneedle = needle;
+	while (*haystack)
 	{
-		for (y = 0; accept[y] != '\0'; y++)
+		while (*needle)
 		{
-			if (s[x] == accept[y])
+			if (*haystack++ != *needle++)
 			{
-				s = &s[x];
-				return (s);
+				break;
 			}
 		}
-		x++;
+		if (!*needle)
+		{
+			return (result);
+		}
+		needle = fneedle;
+		result++;
+		haystack = result;
 	}
-	return (NULL);
+	return (0);
 }
