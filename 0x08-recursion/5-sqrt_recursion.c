@@ -5,40 +5,22 @@
  * @i: a second variable for the function
  * Return: always a number
  */
-int _varincrease(int n, int i)
+int find_root(int n, int root)
 {
-	if (i * i == n)
-	{
-		return (1);
-	}
-	else if (i * i > n)
-	{
+	if (root * root > n)
 		return (-1);
-	}
-	else if (i * i < n)
-	{
-		return (_varincrease(n, 1 + i));
-	}
-	return (i);
+	if (root * root == n)
+		return (root);
+	return (find_root(n, root + 1));
 }
 /**
- * _sqrt_recursion - a square root of the function
- * @n: a parameter to the function
- * Return: Always a number
+ * _sqrt_recursion - find natural square root of n
+ * @n: n
+ * Return: natural square root, or -1 if not natural root
  */
 int _sqrt_recursion(int n)
 {
 	if (n < 0)
-	{
 		return (-1);
-	}
-	else if (n == 0)
-	{
-		return (0);
-	}
-	else if (n > 1)
-	{
-		return (_varincrease(n, 1));
-	}
-	return (-1);
+	return (find_root(n, 0));
 }
