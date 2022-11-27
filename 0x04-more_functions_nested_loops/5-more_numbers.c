@@ -15,8 +15,8 @@ void more_numbers(void)
 			mod = y % 10;
 			far = y / 10;
 
-			_putchar(far);
-			_putchar(mod);
+			_putchar(far + 48);
+			_putchar(mod + 48);
 		}
 		_putchar('\n');
 	}
