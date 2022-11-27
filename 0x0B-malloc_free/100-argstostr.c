@@ -1,50 +1,37 @@
 #include "main.h"
-#include <stdio.h>
 #include <stdlib.h>
 /**
- * argstostr - a function that concatenates all the arguments of the program
- * @ac: an argument of the function
- * @av: another argument to the function
- * Return: alwasy a succes
+ * argstostr - Main Entry
+ * @ac: input
+ * @av: input
+ * Return: 0
  */
 char *argstostr(int ac, char **av)
 {
-	char *p;
-	int a, b, c, d, e;
-	int len = 0;
-
+	int i, n, k = 0, len = 0;
+	char *str;
 	if (ac == 0 || av == NULL)
 		return (NULL);
-
-	for (a = 0; a < ac; a++)
+	for (i = 0; i < ac; i++)
 	{
-		for (b = 0; av[a][b] != '\0'; b++)
+		for (n = 0; av[i][n]; n++)
 			len++;
 	}
-	p = malloc(len + (ac + 1)) * sizeof(char));
-	if (a == NULL)
-	{
+	len += ac;
+	str = malloc(sizeof(char) * len + 1);
+	if (str == NULL)
 		return (NULL);
-	}
-	b = 0;
-	c = 0;
-	d = 0;
-	while (c < len + ac)
+	for (i = 0; i < ac; i++)
 	{
-		if (av[c][d] != '\0')
+		for (n = 0; av[i][n]; n++)
 		{
-			p[b] = av[b][d];
-			c++;
-			d++;
+			str[k] = av[i][n];
+			k++;
 		}
-		else
+		if (str[k] == '\0')
 		{
-			p[c] = '\n';
-			c++;
-			b++;
-			d = 0;
+			str[k++] = '\n';
 		}
 	}
-	p[c] = '\0';
-	return (p);
+	return (str);
 }
