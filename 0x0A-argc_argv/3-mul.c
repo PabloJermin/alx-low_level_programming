@@ -2,9 +2,8 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * main - a program that multiplies two arguments
- * @argc: an argument to the function
- * @argv: second argument to the function
+ * _atoi - a program that multiplies two arguments
+ * @s: an argument to the function
  * Return: returns always 0 or 1
  */
 int _atoi(char *s)
