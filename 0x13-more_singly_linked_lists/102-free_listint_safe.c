@@ -7,6 +7,7 @@
 void free_listp2(listp_t **head)
 {
 	listp_t *temp;
+
 	listp_t *curr;
 
 	if (head != NULL)
@@ -33,6 +34,7 @@ size_t free_listint_safe(listint_t **h)
 	size_t nnodes = 0;
 	
 	listp_t *hptr, *new, *add;
+
 	listint_t *curr;
 
 	hptr = NULL;
@@ -44,8 +46,11 @@ size_t free_listint_safe(listint_t **h)
 		if (new == NULL)
 			exit(98);
 		new->p = (void *)*h;
+
 		new->next = hptr;
+
 		hptr = new;
+
 		add = hptr;
 
 		while (add->next != NULL)
@@ -61,6 +66,7 @@ size_t free_listint_safe(listint_t **h)
 			}
 		}
 		curr = *h;
+
 		*h = (*h)->next;
 
 		free(curr);
