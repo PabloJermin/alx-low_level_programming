@@ -6,7 +6,7 @@
  * @n: n element.
  * Return: address of the new element. NUll if it failed.
  */
-stint_t *add_nodeint(listint_t **head, const int n)
+listint_t *add_nodeint(listint_t **head, const int n)
 {
 	listint_t *new;
 
