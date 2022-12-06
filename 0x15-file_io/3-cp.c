@@ -30,7 +30,9 @@ void error_file(int file_from, int file_to, char *argv[])
 int main(int argc, char *argv[])
 {
 	int file_from, file_to, err_close;
+
 	ssize_t nchars, nwr;
+
 	char buf[1024];
 
 	if (argc != 3)
@@ -43,6 +45,7 @@ int main(int argc, char *argv[])
 	file_to = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC | O_APPEND, 0664);
 
 	error_file(file_from, file_to, argv);
+
 	nchars = 1024;
 
 	while (nchars == 1024)
